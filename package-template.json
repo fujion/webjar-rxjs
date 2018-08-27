@@ -1,0 +1,8 @@
+{
+  "name": "webjar-rxjs",
+  "version": "${version.unrevise}",
+  "description": "RxJS library",
+  "dependencies": {
+    "rxjs": "${version.unrevise}"
+    }
+}
