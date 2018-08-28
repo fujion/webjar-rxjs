@@ -11,14 +11,14 @@
 	<artifactId>webjar-rxjs</artifactId>
 	<version>6.2.2-1-SNAPSHOT</version>
 	<description>RxJS Library.</description>
-	
+
 	<properties>
 		<systemjs>
 			{
 				paths: {
 					"rxjs": "."
 				},
-				
+
 				packages: {
 					"rxjs": {
 						"main": "index.js"
@@ -36,11 +36,11 @@
 						"main": "index.js"
 					}
 				}
-				
-			}			
+
+			}
 		</systemjs>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -66,9 +66,9 @@
 						<id>postcompile</id>
 						<configuration>
 							<target>
-								<move todir="${webjar.target}">
+								<copy todir="${webjar.target}">
 									<fileset dir="${src.rootdir}/node_modules/rxjs" includes="**" />
-								</move>
+								</copy>
 							</target>
 						</configuration>
 					</execution>

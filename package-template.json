@@ -1,7 +1,7 @@
 {
-  "name": "webjar-rxjs",
+  "name": "${project.artifactId}",
   "version": "${version.unrevise}",
-  "description": "RxJS library",
+  "description": "${project.description}",
   "dependencies": {
     "rxjs": "${version.unrevise}"
     }
