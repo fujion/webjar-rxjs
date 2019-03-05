@@ -9,7 +9,7 @@
 
 	<name>RxJS</name>
 	<artifactId>webjar-rxjs</artifactId>
-	<version>6.4.0</version>
+	<version>6.4.0-1-SNAPSHOT</version>
 	<description>RxJS Library.</description>
 
 	<properties>
@@ -76,8 +76,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-  <scm>
-    <tag>6.4.0</tag>
-  </scm>
 </project>
