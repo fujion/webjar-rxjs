@@ -15,25 +15,34 @@
 	<properties>
 		<systemjs>
 			{
-				paths: {
-					"rxjs": "."
+				map: {
+					"rxjs": "./bundles"
 				},
 
 				packages: {
 					"rxjs": {
-						"main": "index.js"
+						"main": "rxjs.umd.js"
 					},
 					"rxjs/ajax": {
-						"main": "index.js"
+						"main": "../rxjs.umd.js"
+					},
+					"rxjs/observable": {
+						"main": "../rxjs.umd.js"
+					},
+					"rxjs/operator": {
+						"main": "../rxjs.umd.js"
 					},
 					"rxjs/operators": {
-						"main": "index.js"
+						"main": "../rxjs.umd.js"
+					},
+					"rxjs/scheduler": {
+						"main": "../rxjs.umd.js"
 					},
 					"rxjs/testing": {
-						"main": "index.js"
+						"main": "../rxjs.umd.js"
 					},
 					"rxjs/webSocket": {
-						"main": "index.js"
+						"main": "../rxjs.umd.js"
 					}
 				}
 
