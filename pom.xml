@@ -13,6 +13,7 @@
 	<description>RxJS Library.</description>
 
 	<properties>
+		<skip.minification.js>false</skip.minification.js>
 		<systemjs>
 			{
 				paths: {
@@ -26,10 +27,19 @@
 					"rxjs/ajax": {
 						"main": "index.js"
 					},
+					"rxjs/observable": {
+						"main": "index.js"
+					},
+					"rxjs/operator": {
+						"main": "index.js"
+					},
 					"rxjs/operators": {
 						"main": "index.js"
 					},
-					"rxjs/testing": {
+					"rxjs/scheduler": {
+						"main": "index.js"
+					},
+					"rxjs/symbol": {
 						"main": "index.js"
 					},
 					"rxjs/webSocket": {
