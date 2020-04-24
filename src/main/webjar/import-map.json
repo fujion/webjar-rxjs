@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "rxjs": "index.js",
+    "rxjs/": "./"
+  }
+}
