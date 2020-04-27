@@ -46,8 +46,8 @@
 						<id>postcompile</id>
 						<configuration>
 							<target>
-								<copy todir="${webjar.target}">
-									<fileset dir="${src.rootdir}/node_modules/rxjs" includes="**" excludes="_esm5/**,_esm2015/**"/>
+								<copy todir="${webjar.target}/dist">
+									<fileset dir="${src.rootdir}/node_modules/rxjs" excludes="_esm5/,_esm2015/"/>
 								</copy>
 							</target>
 						</configuration>

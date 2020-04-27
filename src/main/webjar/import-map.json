@@ -1,6 +1,31 @@
 {
-  "imports": {
-    "rxjs": "index.js",
-    "rxjs/": "./"
+  "paths": {
+    "rxjs": "dist"
+  },
+  "packages": {
+    "rxjs": {
+      "main": "index.js"
+    },
+    "rxjs/ajax": {
+      "main": "index.js"
+    },
+    "rxjs/observable": {
+      "main": "index.js"
+    },
+    "rxjs/operator": {
+      "main": "index.js"
+    },
+    "rxjs/operators": {
+      "main": "index.js"
+    },
+    "rxjs/scheduler": {
+      "main": "index.js"
+    },
+    "rxjs/symbol": {
+      "main": "index.js"
+    },
+    "rxjs/webSocket": {
+      "main": "index.js"
+    }
   }
 }
