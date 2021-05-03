@@ -1,7 +1,11 @@
 {
   "imports": {
-    "rxjs": "dist/index.js",
-    "rxjs/ajax": "dist/ajax/index.js",
-    "rxjs/operators": "dist/operators/index.js"
+    "rxjs": "dist/rxjs.min.js",
+    "rxjs/ajax": "dist/rxjs-ajax.min.js",
+    "rxjs/fetch": "dist/rxjs-fetch.min.js",
+    "rxjs/operators": "dist/rxjs-operators.min.js",
+    "rxjs/shared": "dist/rxjs-shared.min.js",
+    "rxjs/testing": "dist/rxjs-testing.min.js",
+    "rxjs/websocket": "dist/rxjs-websocket.min.js"
   }
 }

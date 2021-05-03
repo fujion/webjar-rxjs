@@ -3,6 +3,6 @@
   "version": "${version.unrevise}",
   "description": "${project.description}",
   "dependencies": {
-    "rxjs": "${version.unrevise}"
+    "@esm-bundle/rxjs": "${version.unrevise}"
     }
 }

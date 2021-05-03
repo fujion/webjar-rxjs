@@ -13,7 +13,7 @@
 	<description>RxJS Library.</description>
 
 	<properties>
-		<skip.minification.js>false</skip.minification.js>
+		<skip.minification.js>true</skip.minification.js>
 	</properties>
 
 	<build>
@@ -47,7 +47,7 @@
 						<configuration>
 							<target>
 								<copy todir="${webjar.target}/dist">
-									<fileset dir="${src.rootdir}/node_modules/rxjs" excludes="_esm5/,_esm2015/"/>
+									<fileset dir="${src.rootdir}/node_modules/@esm-bundle/rxjs/system/es5" />
 								</copy>
 							</target>
 						</configuration>
