@@ -1,11 +1,6 @@
 {
   "imports": {
-    "rxjs": "dist/rxjs.min.js",
-    "rxjs/ajax": "dist/rxjs-ajax.min.js",
-    "rxjs/fetch": "dist/rxjs-fetch.min.js",
-    "rxjs/operators": "dist/rxjs-operators.min.js",
-    "rxjs/shared": "dist/rxjs-shared.min.js",
-    "rxjs/testing": "dist/rxjs-testing.min.js",
-    "rxjs/websocket": "dist/rxjs-websocket.min.js"
+    "rxjs": "dist/rxjs.umd.js",
+    "rxjs/": "dist/"
   }
 }
