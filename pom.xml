@@ -9,7 +9,7 @@
 
 	<name>RxJS</name>
 	<artifactId>webjar-rxjs</artifactId>
-	<version>7.5.2</version>
+	<version>7.5.4</version>
 	<description>RxJS Library.</description>
 
 	<properties>
